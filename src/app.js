@@ -5,4 +5,4 @@ import * as eventConstants from './event-emitter/constants';
 export const subscribe = subscribeEvent;
 export const unsubscribe = unsubscribeEvent;
 export const trigger = triggerEvent;
-export const constants = eventConstants;
+export const options = eventConstants;

@@ -1,6 +1,6 @@
 {
   "name": "activity-event-listener",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Listen to a web application unhandle exceptions/errors, http success and failure request, user navigation, promise resolve and reject activity",
   "main": "lib/index.js",
   "scripts": {

@@ -12,9 +12,9 @@ const unhandleRejectionCallback = (event) => {
 };
 
 const unhandledRejectionListener = () => {
-    if (window && ('addEventListener' in window)) {
+    if (typeof window !== 'undefined' && ('addEventListener' in window)) {
         window.addEventListener('unhandledrejection', unhandleRejectionCallback);
-    } else if (process && ('on' in process)) {
+    } else if (typeof process !== 'undefined' && ('on' in process)) {
         process.on('uncaughtException', unhandleRejectionCallback);
     }
 };

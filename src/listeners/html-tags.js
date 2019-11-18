@@ -2,7 +2,7 @@ import { linkClick, buttonClick } from '../event-emitter/constants';
 import { trigger } from '../event-emitter';
 
 const activate = () => {
-    if (!document) {
+    if (typeof document === 'undefined') {
         return;
     }
     const targetNode = document.querySelector('body');

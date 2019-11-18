@@ -2,7 +2,7 @@ import { trigger } from '../event-emitter';
 import { promiseCatch } from '../event-emitter/constants';
 
 (function () {
-    if (!Promise) {
+    if (typeof Promise === 'undefined') {
         return;
     }
 

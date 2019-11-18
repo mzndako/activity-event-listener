@@ -1,0 +1,32 @@
+{
+  "name": "activity-event-listener",
+  "version": "1.2.1",
+  "description": "Listen to a web application unhandle exceptions/errors, http success and failure request, user navigation, promise resolve and reject activity",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-fix": "eslint --fix ./src/**/*.js"
+  },
+  "files": [
+    "lib/*.js",
+    "src/**/*.js"
+  ],
+  "keywords": [
+    "event",
+    "listener",
+    "activity",
+    "error"
+  ],
+  "author": "Muhammad Z. Ndako",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzndako/activity-event-listener.git"
+  }
+}

@@ -28,7 +28,7 @@ const ignoreUrl = (event, options) => {
 
 export const trigger = (event, eventType) => {
     event.type = eventType;
-    event.host = { url: window && window.location && window.location.href };
+    event.host = { url: typeof window !== 'undefined' && window.location && window.location.href };
     event.isError = !!event.isError;
     event.date = new Date();
 

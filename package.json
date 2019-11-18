@@ -1,6 +1,6 @@
 {
   "name": "activity-event-listener",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "description": "Listen to a web application unhandle exceptions/errors, http success and failure request, user navigation, promise resolve and reject activity",
   "main": "lib/index.js",
   "scripts": {
@@ -29,8 +29,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mzndako/activity-event-listener.git"
-  },
-  "dependencies": {
-    "@babel/polyfill": "^7.7.0"
   }
 }

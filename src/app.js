@@ -1,4 +1,4 @@
-import './listeners/index.js';
+import './listeners/';
 import { subscribe as subscribeEvent, unsubscribe as unsubscribeEvent, trigger as triggerEvent } from './event-emitter';
 import * as eventConstants from './event-emitter/constants';
 

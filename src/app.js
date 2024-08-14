@@ -6,3 +6,5 @@ export const subscribe = subscribeEvent;
 export const unsubscribe = unsubscribeEvent;
 export const trigger = triggerEvent;
 export const options = eventConstants;
+
+export const test = () => true

@@ -16,7 +16,7 @@ import { promiseCatch } from '../event-emitter/constants';
                     isError: true
                 };
 
-                trigger(customEvent, promiseCatch);
+                trigger(customEvents, promiseCatch);
                 callback(error);
             });
         }
@@ -24,4 +24,10 @@ import { promiseCatch } from '../event-emitter/constants';
 
     Promise = MyPromise;
 })();
+
+console.log("confirming it gets here");
+
+const sum = (x, y) => {
+         return x + y;
+}
 

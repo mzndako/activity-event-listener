@@ -8,3 +8,9 @@ export const trigger = triggerEvent;
 export const options = eventConstants;
 
 export const test = () => true
+
+const logMeNow = (value) => {
+  console.log(valuee)
+}
+
+logMeNow("Listener loadded")
